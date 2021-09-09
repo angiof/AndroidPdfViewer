@@ -16,7 +16,7 @@
         android:theme="@style/Theme.AndroidPdfViewer"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".MainPdfJava"
+            android:name=".MainPdfOnline"
             android:exported="true" />
         <activity
             android:name=".PdfTronActvityReader"

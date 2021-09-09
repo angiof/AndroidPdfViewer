@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         provaOnline()
         val bottom: Button = findViewById(R.id.btnGoOnline)
         bottom.setOnClickListener {
-            startActivity(Intent(this, MainPdfJava::class.java))
+            startActivity(Intent(this, MainPdfOnline::class.java))
         }
 
 

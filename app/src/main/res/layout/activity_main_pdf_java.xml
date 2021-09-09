@@ -4,19 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainPdfJava">
+    tools:context=".MainPdfOnline">
 
 
     <com.github.barteksc.pdfviewer.PDFView
         android:id="@+id/pdfViewJava"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="394dp"
+        android:layout_height="507dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
 
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"></com.github.barteksc.pdfviewer.PDFView>
+        app:layout_constraintVertical_bias="0.047"></com.github.barteksc.pdfviewer.PDFView>
+
+    <Button
+        android:id="@+id/btnMian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="url"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pdfViewJava" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
